@@ -2,8 +2,8 @@ import React from 'react';
 import { useQuery } from 'react-query';
 import { useWallet } from '../contexts/WalletContext';
 import { membersAPI } from '../services/api';
-import { Card, CardContent, CardHeader, CardTitle } from './ui/Card';
-import LoadingSpinner from './LoadingSpinner';
+import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/Card';
+import LoadingSpinner from '../components/LoadingSpinner';
 import { TrendingUp, Users, DollarSign, Calendar } from 'lucide-react';
 
 const Dashboard = () => {
